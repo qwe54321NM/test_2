@@ -31,23 +31,7 @@ for i in range(0, len(data)):
             sorted_allsum[ind] = sorted_allsum[ind] + int(str1[1]) * int(str1[2])
             sorted_dopinf[ind] = str1[3]
 
-print(sorted_name)
-print(sorted_inhour)
-print(sorted_hours)
-print(sorted_allsum)
-print(sorted_dopinf)
 
-q1 = sorted(sorted_name)
-q2 = sorted(sorted_inhour)
-q3 = sorted(sorted_hours)
-q4 = sorted(sorted_allsum)
-q5 = sorted(sorted_dopinf)
-
-print(q1)
-print(q2)
-print(q3)
-print(q4)
-print(q5)
 
 a = []
 a.append(sorted_name[0] + ' ' + str(sorted_hours[0]) + ' ' + str(sorted_inhour[0]) + ' ' + str(sorted_allsum[0]) + ' ' + sorted_dopinf[0])
